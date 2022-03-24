@@ -14,7 +14,7 @@
 // var inStock = 10
 var food = "Burger";
 var type = "Meat";
-var inStock = 2;
+var inStock = 21;
 
 
 // Reassign (not initialize) your "inStock" variable from above. We got a new shipment! Use a built in math operator to make
@@ -34,13 +34,10 @@ var isFavorite = false;
 // assign a boolean value to this variable. If "inStock" is less than 20, the
 // variable should be true, otherwise it should be false. You MUST use a
 // comparison operator.
-var shouldOrderMore
-if (inStock<20) {
-  shouldOrderMore = true;
-}
-else {
-  shouldOrderMore = false;
-}
+
+var shouldOrderMore = (inStock<20);
+
+console.log(shouldOrderMore);
 
 //------------------------- Conditionals -------------------------//
 
