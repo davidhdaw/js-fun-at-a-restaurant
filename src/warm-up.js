@@ -25,7 +25,7 @@ inStock = inStock * 2;
 // Use a built in math operator to decrement the inStock count by 1.
 inStock--;
 
-// Initialize a new variable "isFavorite", and assign it to a boolean value indicating
+// Initialize asdf asdf a new variable "isFavorite", and assign it to a boolean value indicating
 // if the food you chose is your favorite food or not
 var isFavorite = false;
 
