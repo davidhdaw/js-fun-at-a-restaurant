@@ -18,12 +18,27 @@ function addIngredients(ingredient, array) {
     }
 };
 
+function formatPrice(initialPrice) {
+  return '$' + initialPrice;
+};
+
+function decreasePrice(initialPrice) {
+  return initialPrice * .9;
+};
+
+function createRecipe(title, ingredients, menuItemType) {
+  return {
+    title: title,
+    ingredients: ingredients,
+    type: menuItemType,
+  }
+};
 
 module.exports = {
   nameMenuItem,
   createMenuItem,
   addIngredients,
-  // formatPrice,
-  // decreasePrice,
-  // createRecipe
+  formatPrice,
+  decreasePrice,
+  createRecipe
 }
