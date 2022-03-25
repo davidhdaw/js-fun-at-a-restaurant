@@ -24,13 +24,12 @@ return string;
 
 
 function searchOrder(array, item) {
-var match
   for (i = 0; i < array.length; i++) {
     if (item === array[i].item) {
       return true;
-    } else {match = false;}
+    } else {}
   }
-  return match
+  return false
 };
 
 
