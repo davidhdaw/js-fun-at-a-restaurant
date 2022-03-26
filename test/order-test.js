@@ -22,7 +22,6 @@ describe("order.js", function() {
         orderType: "delivery",
         status: "accepted"
       };
-
       var order2 = {
         orderNumber: 2,
         item: "blt sandwich",

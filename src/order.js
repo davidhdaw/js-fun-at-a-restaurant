@@ -14,12 +14,13 @@ function refundOrder(orderNumber, array) {
 };
 
 function listItems(array) {
-  var string = array[0].item;
+var string = array[0].item;
 for (i = 1; i < array.length; i++) {
   string = string + ", " + array[i].item;
-}
-return string;
+  }
+  return string;
 };
+
 
 
 
